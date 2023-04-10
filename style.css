@@ -1,0 +1,19 @@
+h1{
+font-size: 24px !important;
+}
+.btn-success:hover{
+background-color: red;
+}
+canvas{
+animation-name: sixtynineomen;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes sixtynineomen{
+from{
+box-shadow: 1px 1px 600px red;
+}
+to{
+box-shadow: 1px 1px 600px blue;
+}
+}
